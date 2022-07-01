@@ -17,10 +17,14 @@ body {
 }
 
 button {
-    width: 70px;
+    width: 90px;
     border-radius: 15px;
-    margin: 5px;
+    margin: 2px;
+    height: 40px;
+    font-weight: bolder;
 }
+
+
 
 html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -32,9 +36,7 @@ h1 {
 }
 
 
-/* .cell {
-    
-} */
+
 
 
 .active {
@@ -43,4 +45,15 @@ h1 {
 
 .erase {
     background-color: grey
+}
+
+
+.footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    
+    width: 100%;
+    justify-content: center;
+    
 }
